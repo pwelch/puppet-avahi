@@ -1,0 +1,14 @@
+{
+  "name": "pwelch-avahi",
+  "version": "0.1.0",
+  "author": "pwelch",
+  "summary": "Installs and Configures Avahi.",
+  "license": "MIT",
+  "source": "git@github.com:pwelch/puppet-avahi.git",
+  "project_page": "https://github.com/pwelch/puppet-avahi",
+  "issues_url": "https://github.com/pwelch/puppet-avahi/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
