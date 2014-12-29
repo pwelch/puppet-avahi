@@ -8,6 +8,7 @@
 3. [Usage - Configuration options and additional functionality](#usage)
 4. [Limitations - OS compatibility, etc.](#limitations)
 5. [Development - Guide for contributing to the module](#development)
+    * [Running Tests](#running-tests)
 
 ## Overview
 
@@ -36,5 +37,20 @@ Only Supports Ubuntu/Debian
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+### Running Tests
+```ruby
+# Install Requirements
+bundle install
+
+# Validate Files
+bundle exec rake validate
+
+# Run Rspec-Puppet
+bundle exec rake spec
+
+# Run Puppet-Lint
+bundle exec rake lint
+```
 
 Source code availabe [here](https://github.com/pwelch/puppet-avahi)
