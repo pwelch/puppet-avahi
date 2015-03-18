@@ -24,14 +24,3 @@ task :unit do
    Rake::Task["spec"].invoke
    Rake::Task["lint"].invoke
 end
-
-## Issues
-#
-# Rspec-Puppet currently does not support Rspec 3 so you will see this:
-#
-# RSpec::Puppet::ManifestMatchers::CreateGeneric implements a legacy RSpec
-# matcher protocol. For the current protocol you should expose the failure
-# messages via the `failure_message` and `failure_message_when_negated` methods.
-#
-# Once [Rspec-Puppet Issue](https://github.com/rodjek/rspec-puppet/pull/204)
-# has been merged in, upgrade rspec-puppet and get rid of the deprecation warnings.
