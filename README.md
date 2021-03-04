@@ -1,5 +1,4 @@
 # Puppet-Avahi
-[![Build Status](https://secure.travis-ci.org/pwelch/puppet-avahi.png)](http://travis-ci.org/pwelch/puppet-avahi)
 
 #### Table of Contents
 
