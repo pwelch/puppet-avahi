@@ -2,7 +2,7 @@ title: Puppet-avahi
 description: Puppet Module for Avahi
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-tactile
+theme: jekyll-theme-midnight
 
 gems:
   - jekyll-mentions
